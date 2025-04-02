@@ -1,0 +1,11 @@
+GET http://localhost:3000/plats
+
+GET http://localhost:3000/users
+
+GET http://localhost:3000/orders
+
+POST http://localhost:3000/plats (JSON { "nom": "Sushi", "prix": 15 })
+
+DELETE http://localhost:3000/users/Ali
+
+GET http://localhost:3000/orders/sum/1 (Somme des prix pour le plat ID 1)
